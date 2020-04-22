@@ -11,7 +11,11 @@ function [Corr_earth_vel_cell]=tilt_correction(ASCIIname,nens)
 
 
 %Adapted from Code by Bart Vermeulen.
-%Transformation matrix reference: ADCP Coordinate Transformation, Teledyne RD Instruments.
+
+
+%References:
+%Vermeulen, B., Sassi, M. G., & Hoitink, A. J. F. (2014). Improved flow velocity estimates from moving‐boat ADCP measurements. Water resources research, 50(5), 4186-4196.
+%Teledyne, R. I. (2010), Adcp coordinate transformation: formulas and calculations, TELEDYNE RD INSTRUMENTS, Technical manual.
 
 %Written by Mohammad Kifayath Chowdhury, Louisiana State University 
 %Last Edited: 7/9/2019
