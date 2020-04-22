@@ -1,6 +1,8 @@
 function biM=beam2instr(conv,alpha)
 %FUNCTION TO COMPUTE TRANSFORMATION MATRIX Beam to instrument
 %Determine beam 2 instruments matrix 4 beams adcp's, Ref: page 11 ADCP
+% Function created by Bart Vermeulen.
+
 %Coordinate Transformation
         a=1/(2*sind(alpha));
         b=1/(4*cosd(alpha));
