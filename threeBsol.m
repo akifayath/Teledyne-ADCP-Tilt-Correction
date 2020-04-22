@@ -1,4 +1,11 @@
 function biM=threeBsol(errorbeam,conv,alpha)
+
+% Function created by Bart Vermeulen.
+
+
+%References:
+%Vermeulen, B., Sassi, M. G., & Hoitink, A. J. F. (2014). Improved flow velocity estimates from moving‐boat ADCP measurements. Water resources research, 50(5), 4186-4196.
+
         a=1/(2*sind(alpha));
         b=1/(4*cosd(alpha));
         
