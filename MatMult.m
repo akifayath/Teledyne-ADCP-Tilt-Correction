@@ -1,4 +1,7 @@
 function MM=MatMult(A,B)  % Multiply matrices along third dimension
+
+% Function created by Bart Vermeulen.
+
 nrows=size(A,1);
 ncols=size(B,2);
 
