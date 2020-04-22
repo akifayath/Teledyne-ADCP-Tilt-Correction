@@ -1,6 +1,13 @@
 function htM=HeadTilt(heading, pitch, roll,nens)
 % FUNCTION TO COMPUTE ROTATION MATRIX, Ref: Page 18-19 ADCP Coordinate Transformation
 % % all angles should be given in degrees 
+% Function created by Bart Vermeulen.
+
+
+%References:
+%Vermeulen, B., Sassi, M. G., & Hoitink, A. J. F. (2014). Improved flow velocity estimates from moving‐boat ADCP measurements. Water resources research, 50(5), 4186-4196.
+%Teledyne, R. I. (2010), Adcp coordinate transformation: formulas and calculations, TELEDYNE RD INSTRUMENTS, Technical manual.
+
 
     pitch=double(pitch)/180*pi;
     roll=double(roll)/180*pi;
